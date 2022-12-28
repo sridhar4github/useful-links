@@ -1,0 +1,31 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #33bbff;
+}
+.content{
+	padding-top: 70px;
+} 
+.list-group {
+	width: 100%;
+	font-weight: bold;
+}
+.form-group {
+	width: 100%;
+}
+.btn-group {
+	padding-bottom: 5px;
+}
+.para p {
+    margin: 0px 15px 10px 0px;
+}
+#top-link-block.affix-top {
+    position: absolute; /* allows it to "slide" up into view */
+    bottom: -82px; /* negative of the offset - height of link element */
+    left: 10px; /* padding from the left side of the window */
+}
+#top-link-block.affix {
+    position: fixed; /* keeps it on the bottom once in view */
+    bottom: 18px; /* height of link element */
+    left: 10px; /* padding from the left side of the window */
+}
